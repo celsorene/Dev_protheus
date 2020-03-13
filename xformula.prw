@@ -37,7 +37,7 @@ User Function xFormula()
 		oBtn1Frm := TButton():New( 045 ,010 ,"Executar" ,oDlg1Frm ,{ || &(cGet1Frm)    } ,037 ,012 ,,,,.T. ,,"" ,,,,.F. )
 		oBtn2Frm := TButton():New( 045 ,125 ,"Sair"     ,oDlg1Frm ,{ || oDlg1Frm:End() } ,037 ,012 ,,,,.T. ,,"" ,,,,.F. )
 		
-		//Ativacao da interface
+		//Ativacao da intersface
 		oDlg1Frm:Activate( ,,,.T.) 
 	 
 	RECOVER
