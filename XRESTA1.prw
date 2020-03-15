@@ -1,7 +1,7 @@
 #INCLUDE "PROTHEUS.CH"
 
 
-/*/{Protheus.doc} Resta1
+/*/{Protheus.doc} xResta1
 //jogo RESTA 1
 @author Celso Rene
 @since 13/03/2020
