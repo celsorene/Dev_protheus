@@ -8,7 +8,7 @@
 @version 1.0
 @type function
 /*/
-User Function Resta1()
+User Function xResta1()
 
 	Local oDlg
 	Local oResta1
