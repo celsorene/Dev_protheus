@@ -17,6 +17,8 @@ User Function xFormula()
 	Local oGet1Frm := Nil
 	Local oBtn1Frm := Nil
 	Local oBtn2Frm := Nil
+
+	Private cError := ""
 	
 	//Recupera e/ou define um bloco de codigo para ser avaliado quando ocorrer um erro em tempo de execucao.
 	bError := ErrorBlock( {|e| cError := e:Description } ) //, Break(e) } )
