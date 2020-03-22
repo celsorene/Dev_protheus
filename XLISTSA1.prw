@@ -47,7 +47,7 @@ User Function XLISTSA1()
 	dbGoTop()
 
 	If TMP->( EOF() )
-		MsgAlert("Conforme parametros informados nao foi encontrado nenhum registro!","#Registros")
+		MsgAlert("Conforme parametros informados nao foi encontrado nenhum registro!","# Registros")
 		Return()
 	EndIf
 
