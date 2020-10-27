@@ -138,7 +138,7 @@ Method Activate() Class TResta1
 		Next nY
 	Next nX
 Return
-
+ 
 Method NewGame() Class TResta1
 	Local nX   := 0
 	Local nY   := 0
