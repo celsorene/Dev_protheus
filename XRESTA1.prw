@@ -133,7 +133,7 @@ Method Activate() Class TResta1
 		For nY := 1 To 7
 			nZ ++
 			If !StrZero(nZ,2) $ "01|02|06|07|08|09|13|14|36|37|41|42|43|44|48|49"
-				::Create( ::oTPanel, nX, nY, "P"+StrZero(nZ,2), IIf(nZ==25,0,1) )
+				::Create( ::oTPanel, nX, nY, "P"+StrZero(nZ,2), IIf(nZ==25,0,1) ) 
 			EndIf
 		Next nY
 	Next nX
