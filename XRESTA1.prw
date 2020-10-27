@@ -128,7 +128,7 @@ Method Activate() Class TResta1
 	cId := ::SetId()
 	::oTPanel:addShape(	"id="+cId+";type=8;left="+cLargura+";top="+cAltura+";width="+cTabLarg+;
 											";height="+cTabAlt+";image-file="+::DirectoryImg()+cImg+";tooltip=Resta1"+;
-											";can-move=0;can-deform=0;can-mark=0;is-container=1")
+											";can-move=0;can-deform=0;can-mark=0;is-container=1") 
 	For nX := 1 To 7
 		For nY := 1 To 7
 			nZ ++
