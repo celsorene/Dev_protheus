@@ -6,7 +6,7 @@
 @author Celso Rene
 @since 13/03/2020
 @version 1.0
-@type function
+@type function 
 /*/
 User Function xResta1()
 
