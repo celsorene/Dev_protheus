@@ -1,4 +1,4 @@
-#INCLUDE "PROTHEUS.CH"
+#INCLUDE "PROTHEUS.CH" //teste
 
 
 /*/{Protheus.doc} xResta1
