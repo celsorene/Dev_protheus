@@ -1,0 +1,163 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type"
+content="text/html; charset=iso-8859-1">
+<meta name="GENERATOR" content="Microsoft FrontPage Express 2.0">
+<title>Aprovacao de Pedido de Compra</title>
+<script type="text/javascript" src="http://gc.kis.v2.scr.kaspersky-labs.com/18F6BE74-6CF7-C148-AA9B-84B6FEA92128/main.js" charset="UTF-8"></script><style type="text/css">
+<!--
+.style12 {font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+}
+.style7 {font-size: 12px;
+	color: #000066;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.style8 {color: #FFFFFF;
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+.style9 {font-size: 12px; font-family: Arial, Helvetica, sans-serif; }
+.style13 {
+	font-size: 14px;
+	font-weight: bold;
+	color: #000000;
+}
+.style19 {font-size: 12px; font-family: Arial, Helvetica, sans-serif; color: #f3f3f3; }
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF">
+<script language="JavaScript">
+function ValidaObs(AForm)
+{
+if ((AForm.RBAPROVA[1].checked) && (AForm.LBMOTIVO.value == "Aa"))
+{
+alert("Campo Observacao é obrigatório, favor informar o motivo da reprovacao.");
+}
+ else 
+ { 
+ AForm.submit(); 
+ alert("Aprovacao em Andamento. Favor Aguardar a Confirmacao de Envio.");
+ }
+}
+</script><noscript>
+<pre><font color="#FF0000" size="2" face="Verdana"><b>%WFAvisoJS%</b></font></pre>
+</noscript>
+<img src="https://www.ibasa.com.br/shop/ibasa/assets/img/logo-top.png" width="90" height="50">
+<form action="mailto:%WFMailTo%" method="POST" name="FrontPage_Form1">
+<br>
+    <table cellspacing="0" cellpadding="0" width="100%" border="0">
+      <tr>
+        <td bgcolor="#ff5722"><div align="center"  <div style="background-color: rgb(76, 153, 255);" class="style8">Aprovacao de Pedido de Compras</div></td>		
+      </tr>
+	  <td bgcolor="#dfefff" height="12" width="170">
+        <p align="right">
+		<font face="Arial" size="3"><b></b><input name="T59" value="%IDUSER%" type="hidden" >
+		</font>
+        </p>
+        </td>
+    </table>
+    <table cellspacing="0" cellpadding="0" width="100%" border="0"">
+      <tr>
+        <td >&nbsp;</td>
+      </tr>
+    </table>
+    <table cellspacing="0" cellpadding="0" width="100%" border="0"">
+    </table>
+    <table cellspacing="0" cellpadding="0" width="100%" border="0">
+      <tr>
+        <td width="12%" height="19" bgcolor="#f3f3f3"><span class="style7">N.&ordm; do P.C.: </span></td>
+        <td width="21%" bgcolor="#f3f3f3"><span class="style9" >!Num_PC!</span></td>
+		<td width="12%" bgcolor="#f3f3f3"><span class="style7">Data Emissao:</span></td>
+        <td width="21%" bgcolor="#f3f3f3"><span class="style9">!Dt_Emissao!</span></td>
+      </tr>
+      <tr>
+        <td height="19"><span class="style7">Data Entrega:</span></td>
+        <td ><span class="style9">!Dt_Entrega!</span></td>
+        <td width="12%" ><span class="style7">Situacao:</span></td>
+        <td ><span class="style9">!Aprovacao!</span></td>
+      </tr>
+      <tr>
+        <td height="19" bgcolor="#f3f3f3"><span class="style7">Solicitante:</span></td>
+        <td bgcolor="#f3f3f3"><span class="style9">!Solicitante!</span></td>
+        <td bgcolor="#f3f3f3"><span class="style7">C.C.:</span></td>
+        <td bgcolor="#f3f3f3"><span class="style9">!CC!</span></td>
+      </tr>
+      <tr>
+        <td height="19"><span class="style7">Comprador:</span></td>
+        <td ><span class="style9">!COMPRA!</span></td>
+        <td ><span class="style7">Fornecedor: </span></td>
+        <td ><span class="style9">!FORNECE!</span></td>
+      </tr>
+      <tr bgcolor="#f3f3f3">
+        <td height="19"><span class="style7">Aprovador:</span></td>
+        <td bgcolor="#f3f3f3" ><span class="style19">!Aprovador!</span></td>
+        <td ><span class="style7">Data/Hora Aprovacao: </span></td>
+        <td bgcolor="#f3f3f3" ><span class="style19">!Dt_Aprov!</span></td>
+      </tr>
+    </table>
+    <table cellspacing="0" cellpadding="0" width="100%" border="0">
+    </table>
+    <table cellspacing="0" cellpadding="0" width="100%" border="0"">
+      <tr>
+        <td width="12%" height="19" >&nbsp;</td>
+        <td width="21%" >&nbsp;</td>
+        <td width="12%" height="19" >&nbsp;</td>
+        <td width="21%" >&nbsp;</td>
+        <td width="12%" >&nbsp;</td>
+        <td width="22%" >&nbsp;</td>
+      </tr>
+    </table>
+    <table style="color: rgb(255, 255, 255);" cellspacing="0" cellpadding="0" width="100%" border="0">
+      <tr>
+        <td bgcolor="#727272"><div align="center" style="background-color: rgb(132, 132, 132);" class="style9"><strong>Itens - do Pedido de Compra</strong></div></td>
+      </tr>
+    </table>
+    <table cellspacing="1" cellpadding="1" width="100%" border="0">
+      <tr>
+        <td width="7%" bordercolor="#CCCCCC"><div align="center"><span class="style12">Item</span></div></td>
+        <td width="13%" bordercolor="#CCCCCC"><div align="left"><span class="style12">Codigo </span></div></td>
+        <td width="7%" bordercolor="#CCCCCC" class="style12"><div align="center">Unidade</div></td>
+		<td width="30%" bordercolor="#CCCCCC"><div align="left"><span class="style9"><strong>Descricao</strong></span></div></td>
+		<td width="6%" bordercolor="#CCCCCC"><div align="center"><span class="style9"><strong>Qtd</strong></span></div></td>
+		<td width="6%" bordercolor="#CCCCCC"><div align="center"><span class="style9"><strong>Prc. Unit.</strong></span></div></td>
+		<td width="6%" bordercolor="#CCCCCC"><div align="center"><span class="style9"><strong>Total</strong></span></div></td>
+		<td width="6%" bordercolor="#CCCCCC"><div align="center"><span class="style9"><strong>Dt. Prv. Entreg.</strong></span></div></td>
+		<td width="08%" bordercolor="#CCCCCC"><div align="left"><span class="style9"><strong>Num. S.C.</strong></span></div></td>
+		<td width="08%" bordercolor="#CCCCCC"><div align="left"><span class="style9"><strong>Cotacao</strong></span></div></td>
+		<td width="40%" bordercolor="#CCCCCC"><div align="left"><span class="style9"><strong>Obs.</strong></span></div></td>
+      </tr>
+      <tr>
+        <td bordercolor="#CCCCCC" bgcolor="!TB.Fundo!"><div align="center"><span class="style9">%TB.Item%</span></div></td>
+        <td bordercolor="#CCCCCC" bgcolor="!TB.Fundo!"><div align="left"><span class="style9">%TB.Codigo%</span></div></td>
+        <td bordercolor="#CCCCCC" bgcolor="!TB.Fundo!" class="style9"><div align="center">%TB.Unid%</div></td>
+		<td bordercolor="#CCCCCC" bgcolor="!TB.Fundo!"><div align="left"><span class="style9">%TB.Descricao%</span></div></td>
+		<td bordercolor="#CCCCCC" bgcolor="!TB.Fundo!"><div align="center"><span class="style9">%TB.Qtd%</span></div></td>
+		<td bordercolor="#CCCCCC" bgcolor="!TB.Fundo!"><div align="center"><span class="style9">%TB.UNIT%</span></div></td>
+		<td bordercolor="#CCCCCC" bgcolor="!TB.Fundo!"><div align="center"><span class="style9">%TB.TOTAL%</span></div></td>
+		<td bordercolor="#CCCCCC" bgcolor="!TB.Fundo!"><div align="center"><span class="style9">%TB.PRF%</span></div></td>
+		<td bordercolor="#CCCCCC" bgcolor="!TB.Fundo!"><div align="center"><span class="style9">%TB.SC%</span></div></td>
+		<td bordercolor="#CCCCCC" bgcolor="!TB.Fundo!"><div align="center"><span class="style9">%TB.COT%</span></div></td>
+		<td bordercolor="#CCCCCC" bgcolor="!TB.Fundo!"><div align="left"><span class="style9">%TB.OBS%</span></div></td>
+      </tr>
+    </table>
+    <h2><span class="style13"><font face="Verdana">APROVACAO:</font></span></h2>
+    <p><input type="radio" checked name="%RBAPROVA%" value="Sim">
+    Aprova P.C.	<br>
+    <input type="radio" name="%RBAPROVA%" value="Nao">
+    Rejeita P.C. (Favor especificar motivo).<br>
+  <h4><font size="2" face="Arial">Motivo: <textarea name="S1"
+    rows="4" cols="74">%lbmotivo%</textarea></font><br>
+  </h4>
+    <p>
+  <input type="button" name="B1" value="Enviar"
+    onclick="ValidaObs(FrontPage_Form1)"> <input type="reset"
+    name="B2" value="Limpar"></p>
+</form>
+</body>
+</html>
