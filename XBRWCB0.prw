@@ -38,9 +38,9 @@ user function XBRWCB0()
 
     //01=Produto;02=Endereco;03=Unitizador;04=Usuario;05=Volume
     oBrw:AddLegend( "CB0->CB0_TIPO == '01' " , "ENABLE" 	, "Produto" )
-    oBrw:AddLegend( "CB0->CB0_TIPO == '02' " , "BR_LARANJA" , "Endereço" )
+    oBrw:AddLegend( "CB0->CB0_TIPO == '02' " , "BR_LARANJA" , "EndereÃ§o" )
     oBrw:AddLegend( "CB0->CB0_TIPO == '03' " , "BR_AMARELO" , "Unitilizador" )
-    oBrw:AddLegend( "CB0->CB0_TIPO == '04' " , "BR_BRANCO" 	, "Usuário" )
+    oBrw:AddLegend( "CB0->CB0_TIPO == '04' " , "BR_BRANCO" 	, "UsuÃ¡rio" )
     oBrw:AddLegend( "CB0->CB0_TIPO == '05' " , "BR_AZUL" 	, "Embalagem" )
 
     OpenSXs(Nil,Nil,Nil,Nil,cEmpAnt,cAliasX3,"SX3",Nil,.F.)
@@ -74,7 +74,7 @@ Return()
 /*/{Protheus.doc} _LegCB0
 //Funcao para tela de legenda CB0
 @author Celso Rene
-@since 13032020
+@since 13/03/2020
 @version 1.0
 @type function
 /*/
@@ -83,7 +83,7 @@ User Function _LegCB0()
     //01=Produto;02=Endereco;03=Unitizador;04=Usuario;05=Volume
     BrwLegenda(cCadastro,"Legenda"				  ,{;
         {"ENABLE"    	,"01-Etiqueta"  			},;
-        {"BR_LARANJA"   ,"02-Endereço" 				},;
+        {"BR_LARANJA"   ,"02-EndereÃ§o" 				},;
         {"BR_AMARELO"   ,"03-Unitilizador" 			},;
         {"BR_BRANCO"    ,"04-Usuario"	 			},;
         {"BR_AZUL"   	,"05-Volume"	 			}} )
